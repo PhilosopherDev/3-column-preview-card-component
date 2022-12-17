@@ -65,6 +65,9 @@ table {
     
     font-family: 'Big Shoulders Display', cursive;
     font-family: 'Lexend Deca', sans-serif;
+
+	/* font size */
+
 }
 
 
@@ -82,8 +85,21 @@ table {
 
 }
 
-.card_logo {
+.card .logo {
+	width: 64px;
+	height: 40px;
+}
 
+.logo_sedan {
+	background-image: url('./images/icon-sedans.svg');
+}
+
+.logo_suvs {
+	background-image: url('./images/icon-suvs.svg');
+}
+
+.logo_luxury {
+	background-image: url('./images/icon-luxury.svg');
 }
 
 .card_title {
