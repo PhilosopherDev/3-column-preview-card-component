@@ -105,7 +105,11 @@ table {
 /* title Block & Element */
 
 .title {
-
+	font-size: var(--fs-700);
+	font-weight: 700;
+	font-family: var(--ff-big-shoulders-display);
+	color: var(--color-very-light-gray);
+	text-transform: uppercase;
 }
 
 /* content Block & Element */
