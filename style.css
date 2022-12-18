@@ -115,13 +115,27 @@ table {
 /* content Block & Element */
 
 .content {
-
+	font-size: var(--fs-400);
+	font-weight: 400;
+	font-family: var(--ff-lexend-deca);
+	opacity: 0.75;
+	color: white;
 }
 
 /* button Block & Element */
 
 .button {
+	border-radius: 30px;
+	border: none;
+	background-color: white;
+	width: 146px;
+	height: 48px;
+}
 
+.button__content {
+	font-family: var(--ff-lexend-deca);
+	font-size: var(--fs-400);
+	font-weight: 400;
 }
 
 /* color Block & Element */
@@ -131,14 +145,26 @@ table {
 }
 
 .color__sedan {
-	background-color: var(--color-bright-orange);
+	color: var(--color-bright-orange);
 }
 
 .color__suvs {
-	background-color: var(--color-dark-cyan);
+	color: var(--color-dark-cyan);
 }
 
 .color__luxury {
+	color: var(--color-very-dark-cyan);
+}
+
+.color__bg-sedan {
+	background-color: var(--color-bright-orange);
+}
+
+.color__bg-suvs {
+	background-color: var(--color-dark-cyan);
+}
+
+.color__bg-luxury {
 	background-color: var(--color-very-dark-cyan);
 }
 
