@@ -126,13 +126,24 @@ table {
 
 .button {
 	border-radius: 30px;
-	border: none;
+	border: 2px solid white;
 	background-color: white;
 	width: 146px;
 	height: 48px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: transparent;
 }
 
 .button__content {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+
 	font-family: var(--ff-lexend-deca);
 	font-size: var(--fs-400);
 	font-weight: 400;
@@ -154,6 +165,18 @@ table {
 
 .color__luxury {
 	color: var(--color-very-dark-cyan);
+}
+
+.button:hover .color__sedan {
+	color: white;
+}
+
+.button:hover .color__suvs {
+	color: white;
+}
+
+.button:hover .color__luxury {
+	color: white;
 }
 
 .color__bg-sedan {
