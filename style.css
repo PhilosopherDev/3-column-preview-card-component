@@ -68,7 +68,6 @@ table {
 
 	/* font sizes */
 
-    --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
     --fs-800: 3.5rem;
     --fs-700: 2.5rem;
     --fs-600: 1.5rem;
@@ -100,6 +99,10 @@ table {
 .card__layout {
 	box-sizing: border-box;
 	padding: 48px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 /* title Block & Element */
@@ -120,6 +123,7 @@ table {
 	font-family: var(--ff-lexend-deca);
 	opacity: 0.75;
 	color: white;
+	line-height: 25px;
 }
 
 /* button Block & Element */
@@ -150,10 +154,6 @@ table {
 }
 
 /* color Block & Element */
-
-.color {
-
-}
 
 .color__sedan {
 	color: var(--color-bright-orange);
@@ -214,25 +214,18 @@ table {
 /* Mix - for layout */
 
 .card_logo {
-
-}
-
-.card_title {
-
+	margin-bottom: 10px;
 }
 
 .card_content {
-
-}
-
-.card_button {
-	
+	margin-bottom: 58px;
 }
 
 /* for responsive mobile */
 
 @media (max-width: 925px) {
 	.container {
+		margin: 88px 0;
 		flex-direction: column;
 	}
 
